@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "source": "User-supplied EcoBuro_Development_Report2.docx, numbering applied manually in Microsoft Word; user confirmed cascading numbering",
+    "sha256": "f5bf05927dfeacab28557f25b36e6da970df501443ad921fd4f0937f889e1c22",
+    "generated_by_md2doc": false,
+    "limitation": "The reference numbers H2-H4, but not chapter H1; H1 reset is tested independently."
+  },
+  "multiLevelType": "multilevel",
+  "levels": [
+    {
+      "start": "1",
+      "numFmt": "decimal",
+      "lvlText": "%1.",
+      "lvlJc": "left",
+      "indent": {
+        "left": "360",
+        "hanging": "360"
+      }
+    },
+    {
+      "start": "1",
+      "numFmt": "decimal",
+      "lvlText": "%1.%2.",
+      "lvlJc": "left",
+      "indent": {
+        "left": "792",
+        "hanging": "432"
+      }
+    },
+    {
+      "start": "1",
+      "numFmt": "decimal",
+      "lvlText": "%1.%2.%3.",
+      "lvlJc": "left",
+      "indent": {
+        "left": "1224",
+        "hanging": "504"
+      }
+    },
+    {
+      "start": "1",
+      "numFmt": "decimal",
+      "lvlText": "%1.%2.%3.%4.",
+      "lvlJc": "left",
+      "indent": {
+        "left": "1728",
+        "hanging": "648"
+      }
+    },
+    {
+      "start": "1",
+      "numFmt": "decimal",
+      "lvlText": "%1.%2.%3.%4.%5.",
+      "lvlJc": "left",
+      "indent": {
+        "left": "2232",
+        "hanging": "792"
+      }
+    },
+    {
+      "start": "1",
+      "numFmt": "decimal",
+      "lvlText": "%1.%2.%3.%4.%5.%6.",
+      "lvlJc": "left",
+      "indent": {
+        "left": "2736",
+        "hanging": "936"
+      }
+    },
+    {
+      "start": "1",
+      "numFmt": "decimal",
+      "lvlText": "%1.%2.%3.%4.%5.%6.%7.",
+      "lvlJc": "left",
+      "indent": {
+        "left": "3240",
+        "hanging": "1080"
+      }
+    },
+    {
+      "start": "1",
+      "numFmt": "decimal",
+      "lvlText": "%1.%2.%3.%4.%5.%6.%7.%8.",
+      "lvlJc": "left",
+      "indent": {
+        "left": "3744",
+        "hanging": "1224"
+      }
+    },
+    {
+      "start": "1",
+      "numFmt": "decimal",
+      "lvlText": "%1.%2.%3.%4.%5.%6.%7.%8.%9.",
+      "lvlJc": "left",
+      "indent": {
+        "left": "4320",
+        "hanging": "1440"
+      }
+    }
+  ]
+}

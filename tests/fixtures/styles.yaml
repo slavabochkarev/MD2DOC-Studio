@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1",
+  "page": {
+    "paper": "A4", "orientation": "portrait",
+    "margins": {"top": "20mm", "bottom": "20mm", "left": "30mm", "right": "15mm"},
+    "header_distance": "10mm", "footer_distance": "10mm", "mirror_margins": false
+  },
+  "font": {
+    "family": "Times New Roman", "size": 14, "color": "#000000",
+    "bold": false, "italic": false, "underline": "none", "strike": false,
+    "case": "normal", "character_spacing": 0
+  },
+  "paragraph": {
+    "alignment": "justify", "indent_left": "0mm", "indent_right": "0mm", "first_line": "12.5mm",
+    "space_before": 0, "space_after": 0, "line_spacing": {"mode": "multiple", "value": 1.5},
+    "widow_control": true, "keep_with_next": false, "keep_together": false, "page_break_before": false
+  },
+  "headings": {
+    "h1": {"font": {"size": 16, "bold": true}, "paragraph": {"alignment": "center", "first_line": "0mm", "space_before": 12, "space_after": 12, "keep_with_next": true, "keep_together": true}},
+    "h2": {"font": {"size": 14, "bold": true}, "paragraph": {"first_line": "0mm", "space_before": 12, "space_after": 6, "keep_with_next": true}},
+    "h3": {"font": {"size": 14, "bold": true, "italic": true}, "paragraph": {"first_line": "0mm", "space_before": 6, "space_after": 6, "keep_with_next": true}},
+    "h4": {"font": {"size": 12, "bold": true}, "paragraph": {"first_line": "0mm", "space_before": 6, "keep_with_next": true}},
+    "h5": {"font": {"size": 12, "italic": true}, "paragraph": {"first_line": "0mm", "space_before": 6, "keep_with_next": true}},
+    "h6": {"font": {"size": 11, "italic": true}, "paragraph": {"first_line": "0mm", "space_before": 6, "keep_with_next": true}}
+  },
+  "lists": {
+    "max_depth": 6, "bullet_markers": ["•", "◦", "▪"],
+    "ordered_formats": ["decimal", "lower_alpha", "lower_roman"], "ordered_start": 1,
+    "indent_per_level": "7mm", "hanging": "3.5mm", "space_before": 0, "space_after": 3
+  },
+  "tables": {
+    "border": {"style": "single", "width": 0.5, "color": "#808080"},
+    "width": "100%", "alignment": "center",
+    "cell_padding": {"top": "1mm", "bottom": "1mm", "left": "2mm", "right": "2mm"},
+    "repeat_header": true, "allow_row_split": false,
+    "header_fill": "#D9E2F3", "banded_rows": {"enabled": true, "odd": "#FFFFFF", "even": "#F2F2F2"}
+  },
+  "images": {
+    "max_width": "100%", "alignment": "center", "space_before": 6, "space_after": 6,
+    "caption": {"enabled": true, "style": "caption", "position": "below", "template": "Рисунок {number} — {text}"},
+    "numbering": {"enabled": true, "scope": "document", "start": 1}
+  },
+  "headers_footers": {
+    "page_number": {"visible": true, "position": "footer_center", "start": 1, "format": "decimal"},
+    "different_first_page": true, "first_page": {"header_text": "", "footer_text": "", "show_page_number": false},
+    "header_text": "Пример MD2DOC", "footer_text": ""
+  },
+  "blocks": {
+    "code": {"font": {"family": "Consolas", "size": 10}, "paragraph": {"alignment": "left", "first_line": "0mm", "line_spacing": {"mode": "multiple", "value": 1}, "space_before": 6, "space_after": 6}},
+    "quote": {"font": {"italic": true}, "paragraph": {"indent_left": "10mm", "indent_right": "5mm", "first_line": "0mm", "space_before": 6, "space_after": 6}},
+    "note": {"font": {"color": "#1F4E79"}, "paragraph": {"first_line": "0mm", "space_before": 6, "space_after": 6}},
+    "warning": {"font": {"color": "#9C0006", "bold": true}, "paragraph": {"first_line": "0mm", "space_before": 6, "space_after": 6}},
+    "caption": {"font": {"size": 12}, "paragraph": {"alignment": "center", "first_line": "0mm", "space_after": 6, "keep_together": true}},
+    "title": {"font": {"size": 22, "bold": true}, "paragraph": {"alignment": "center", "first_line": "0mm", "space_before": 72, "space_after": 18, "keep_with_next": true}},
+    "subtitle": {"font": {"size": 16, "italic": true}, "paragraph": {"alignment": "center", "first_line": "0mm", "space_after": 24}},
+    "appendix_heading": {"font": {"size": 16, "bold": true}, "paragraph": {"alignment": "center", "first_line": "0mm", "space_before": 12, "space_after": 12, "keep_with_next": true}}
+  },
+  "breaks": {
+    "hyphenation": {"enabled": false, "language": "ru-RU", "consecutive_limit": 2},
+    "soft_line_break": "space", "hard_line_break": "line", "page_break_marker": "<!-- pagebreak -->",
+    "paragraph_keep_together": false, "table_pagination": "between_rows", "code_long_lines": "wrap"
+  },
+  "named_styles": {
+    "compact_body": {"based_on": "body", "paragraph": {"space_after": 3, "line_spacing": {"mode": "multiple", "value": 1.15}}}
+  }
+}

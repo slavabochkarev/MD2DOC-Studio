@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.2",
+  "id": "example",
+  "language": "ru-RU",
+  "metadata": "metadata.yaml",
+  "styles": "styles.yaml",
+  "build": {
+    "output_dir": "output",
+    "output_name": "example.docx"
+  },
+  "defaults": {
+    "numbering": {
+      "enabled": true,
+      "format": "decimal",
+      "scope": "siblings"
+    },
+    "style": {
+      "body": "body"
+    }
+  },
+  "elements": [
+    {
+      "id": "intro",
+      "type": "chapter",
+      "source": "content/introduction.md",
+      "heading": {
+        "from": "markdown",
+        "level": 1
+      }
+    }
+  ]
+}

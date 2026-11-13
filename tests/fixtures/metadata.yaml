@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1",
+  "title": "Демонстрационный документ MD2DOC",
+  "subtitle": "Пример проекта формата 0.1",
+  "author": "Бочкарев В.Е.",
+  "organization": "Эксперт",
+  "version": "0.1.0",
+  "status": "draft",
+  "date": "2026-11-11",
+  "language": "ru-RU",
+  "keywords": ["MD2DOC", "Markdown", "структура документа"],
+  "description": "Небольшой вымышленный пример для проверки будущего конвертера."
+}

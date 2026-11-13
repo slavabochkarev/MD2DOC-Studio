@@ -1,0 +1,2128 @@
+[
+  {
+    "category": "page",
+    "path": "styles.page.paper",
+    "label": "Размер бумаги",
+    "type": "select",
+    "options": [
+      "A4",
+      "A5",
+      "Letter"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "page",
+    "path": "styles.page.orientation",
+    "label": "Ориентация",
+    "type": "select",
+    "options": [
+      "portrait",
+      "landscape"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "page",
+    "path": "styles.page.margins.top",
+    "label": "Верхнее поле",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "page",
+    "path": "styles.page.margins.bottom",
+    "label": "Нижнее поле",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "page",
+    "path": "styles.page.margins.left",
+    "label": "Левое поле",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "page",
+    "path": "styles.page.margins.right",
+    "label": "Правое поле",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "page",
+    "path": "styles.page.mirror_margins",
+    "label": "Зеркальные поля",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "page",
+    "path": "styles.page.header_distance",
+    "label": "Верхний колонтитул",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "page",
+    "path": "styles.page.footer_distance",
+    "label": "Нижний колонтитул",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.font.family",
+    "label": "Шрифт",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.font.size",
+    "label": "Размер шрифта",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "body",
+    "path": "styles.font.color",
+    "label": "Цвет текста",
+    "type": "color",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.alignment",
+    "label": "Выравнивание",
+    "type": "select",
+    "options": [
+      "left",
+      "center",
+      "right",
+      "justify"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.first_line",
+    "label": "Первая строка",
+    "type": "dimension",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": true
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.space_before",
+    "label": "Перед абзацем",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.space_after",
+    "label": "После абзаца",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.line_spacing.mode",
+    "label": "Межстрочный интервал",
+    "type": "select",
+    "options": [
+      "multiple",
+      "exact",
+      "at_least"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.line_spacing.value",
+    "label": "Значение",
+    "type": "number",
+    "options": [],
+    "min": "0.1",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.font.bold",
+    "label": "Полужирный",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.font.italic",
+    "label": "Курсив",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.indent_left",
+    "label": "Отступ слева",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": true
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.indent_right",
+    "label": "Отступ справа",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": true
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.keep_together",
+    "label": "Не разрывать абзац",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.keep_with_next",
+    "label": "Не отрывать от следующего",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "body",
+    "path": "styles.paragraph.widow_control",
+    "label": "Контроль висячих строк",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h1.font.family",
+    "label": "Шрифт заголовка",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h1.font.size",
+    "label": "Размер",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h1.font.color",
+    "label": "Цвет",
+    "type": "color",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h1.paragraph.alignment",
+    "label": "Выравнивание",
+    "type": "select",
+    "options": [
+      "left",
+      "center",
+      "right",
+      "justify"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h1.paragraph.first_line",
+    "label": "Первая строка",
+    "type": "dimension",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": true
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h1.paragraph.space_before",
+    "label": "Перед заголовком",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h1.paragraph.space_after",
+    "label": "После заголовка",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h1.font.bold",
+    "label": "Полужирный",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h1.paragraph.keep_with_next",
+    "label": "Не отрывать от следующего абзаца",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h2.font.family",
+    "label": "Шрифт заголовка",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h2.font.size",
+    "label": "Размер",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h2.font.color",
+    "label": "Цвет",
+    "type": "color",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h2.paragraph.alignment",
+    "label": "Выравнивание",
+    "type": "select",
+    "options": [
+      "left",
+      "center",
+      "right",
+      "justify"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h2.paragraph.first_line",
+    "label": "Первая строка",
+    "type": "dimension",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": true
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h2.paragraph.space_before",
+    "label": "Перед заголовком",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h2.paragraph.space_after",
+    "label": "После заголовка",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h2.font.bold",
+    "label": "Полужирный",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h2.paragraph.keep_with_next",
+    "label": "Не отрывать от следующего абзаца",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h3.font.family",
+    "label": "Шрифт заголовка",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h3.font.size",
+    "label": "Размер",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h3.font.color",
+    "label": "Цвет",
+    "type": "color",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h3.paragraph.alignment",
+    "label": "Выравнивание",
+    "type": "select",
+    "options": [
+      "left",
+      "center",
+      "right",
+      "justify"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h3.paragraph.first_line",
+    "label": "Первая строка",
+    "type": "dimension",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": true
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h3.paragraph.space_before",
+    "label": "Перед заголовком",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h3.paragraph.space_after",
+    "label": "После заголовка",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h3.font.bold",
+    "label": "Полужирный",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h3.paragraph.keep_with_next",
+    "label": "Не отрывать от следующего абзаца",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h4.font.family",
+    "label": "Шрифт заголовка",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h4.font.size",
+    "label": "Размер",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h4.font.color",
+    "label": "Цвет",
+    "type": "color",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h4.paragraph.alignment",
+    "label": "Выравнивание",
+    "type": "select",
+    "options": [
+      "left",
+      "center",
+      "right",
+      "justify"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h4.paragraph.first_line",
+    "label": "Первая строка",
+    "type": "dimension",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": true
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h4.paragraph.space_before",
+    "label": "Перед заголовком",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h4.paragraph.space_after",
+    "label": "После заголовка",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h4.font.bold",
+    "label": "Полужирный",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h4.paragraph.keep_with_next",
+    "label": "Не отрывать от следующего абзаца",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h5.font.family",
+    "label": "Шрифт заголовка",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h5.font.size",
+    "label": "Размер",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h5.font.color",
+    "label": "Цвет",
+    "type": "color",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h5.paragraph.alignment",
+    "label": "Выравнивание",
+    "type": "select",
+    "options": [
+      "left",
+      "center",
+      "right",
+      "justify"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h5.paragraph.first_line",
+    "label": "Первая строка",
+    "type": "dimension",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": true
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h5.paragraph.space_before",
+    "label": "Перед заголовком",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h5.paragraph.space_after",
+    "label": "После заголовка",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h5.font.bold",
+    "label": "Полужирный",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h5.paragraph.keep_with_next",
+    "label": "Не отрывать от следующего абзаца",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h6.font.family",
+    "label": "Шрифт заголовка",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h6.font.size",
+    "label": "Размер",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h6.font.color",
+    "label": "Цвет",
+    "type": "color",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h6.paragraph.alignment",
+    "label": "Выравнивание",
+    "type": "select",
+    "options": [
+      "left",
+      "center",
+      "right",
+      "justify"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h6.paragraph.first_line",
+    "label": "Первая строка",
+    "type": "dimension",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": true
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h6.paragraph.space_before",
+    "label": "Перед заголовком",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h6.paragraph.space_after",
+    "label": "После заголовка",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h6.font.bold",
+    "label": "Полужирный",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "headings",
+    "path": "styles.headings.h6.paragraph.keep_with_next",
+    "label": "Не отрывать от следующего абзаца",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.enabled",
+    "label": "Нумеровать заголовки документа",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h1.template",
+    "label": "Шаблон номера",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.separator",
+    "label": "Разделитель уровней",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h1.enabled",
+    "label": "Учитывать этот уровень в нумерации",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h1.display",
+    "label": "Показывать номер заголовка",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h1.number_text_separator",
+    "label": "После номера",
+    "type": "select",
+    "options": [
+      "space",
+      "tab",
+      "none"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h1.start",
+    "label": "Начальное значение",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": "32767",
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h1.restart",
+    "label": "Правило перезапуска",
+    "type": "select",
+    "options": [
+      "parent",
+      "continue"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h1.reset",
+    "label": "Сбрасывать каждый заголовок уровня",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "hint": "Расширенная настройка. Для обычной нумерации оставьте выключенной."
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h2.template",
+    "label": "Шаблон номера",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h2.enabled",
+    "label": "Учитывать этот уровень в нумерации",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h2.display",
+    "label": "Показывать номер заголовка",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h2.number_text_separator",
+    "label": "После номера",
+    "type": "select",
+    "options": [
+      "space",
+      "tab",
+      "none"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h2.start",
+    "label": "Начальное значение",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": "32767",
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h2.restart",
+    "label": "Правило перезапуска",
+    "type": "select",
+    "options": [
+      "parent",
+      "continue"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h2.reset",
+    "label": "Сбрасывать каждый заголовок уровня",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "hint": "Расширенная настройка. Для обычной нумерации оставьте выключенной."
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h3.template",
+    "label": "Шаблон номера",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h3.enabled",
+    "label": "Учитывать этот уровень в нумерации",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h3.display",
+    "label": "Показывать номер заголовка",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h3.number_text_separator",
+    "label": "После номера",
+    "type": "select",
+    "options": [
+      "space",
+      "tab",
+      "none"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h3.start",
+    "label": "Начальное значение",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": "32767",
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h3.restart",
+    "label": "Правило перезапуска",
+    "type": "select",
+    "options": [
+      "parent",
+      "continue"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h3.reset",
+    "label": "Сбрасывать каждый заголовок уровня",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "hint": "Расширенная настройка. Для обычной нумерации оставьте выключенной."
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h4.template",
+    "label": "Шаблон номера",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h4.enabled",
+    "label": "Учитывать этот уровень в нумерации",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h4.display",
+    "label": "Показывать номер заголовка",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h4.number_text_separator",
+    "label": "После номера",
+    "type": "select",
+    "options": [
+      "space",
+      "tab",
+      "none"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h4.start",
+    "label": "Начальное значение",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": "32767",
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h4.restart",
+    "label": "Правило перезапуска",
+    "type": "select",
+    "options": [
+      "parent",
+      "continue"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h4.reset",
+    "label": "Сбрасывать каждый заголовок уровня",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "hint": "Расширенная настройка. Для обычной нумерации оставьте выключенной."
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h5.template",
+    "label": "Шаблон номера",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h5.enabled",
+    "label": "Учитывать этот уровень в нумерации",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h5.display",
+    "label": "Показывать номер заголовка",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h5.number_text_separator",
+    "label": "После номера",
+    "type": "select",
+    "options": [
+      "space",
+      "tab",
+      "none"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h5.start",
+    "label": "Начальное значение",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": "32767",
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h5.restart",
+    "label": "Правило перезапуска",
+    "type": "select",
+    "options": [
+      "parent",
+      "continue"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h5.reset",
+    "label": "Сбрасывать каждый заголовок уровня",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "hint": "Расширенная настройка. Для обычной нумерации оставьте выключенной."
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h6.template",
+    "label": "Шаблон номера",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h6.enabled",
+    "label": "Учитывать этот уровень в нумерации",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h6.display",
+    "label": "Показывать номер заголовка",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h6.number_text_separator",
+    "label": "После номера",
+    "type": "select",
+    "options": [
+      "space",
+      "tab",
+      "none"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h6.start",
+    "label": "Начальное значение",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": "32767",
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h6.restart",
+    "label": "Правило перезапуска",
+    "type": "select",
+    "options": [
+      "parent",
+      "continue"
+    ],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false
+  },
+  {
+    "category": "numbering",
+    "path": "styles.heading_numbering.levels.h6.reset",
+    "label": "Сбрасывать каждый заголовок уровня",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": true,
+    "signed": false,
+    "hint": "Расширенная настройка. Для обычной нумерации оставьте выключенной."
+  },
+  {
+    "category": "lists",
+    "path": "styles.lists.max_depth",
+    "label": "Максимальная глубина",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": "6",
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "lists",
+    "path": "styles.lists.ordered_start",
+    "label": "Начальное число",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "lists",
+    "path": "styles.lists.indent_per_level",
+    "label": "Отступ на уровень",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "lists",
+    "path": "styles.lists.hanging",
+    "label": "Выступ маркера",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "lists",
+    "path": "styles.lists.space_before",
+    "label": "Перед списком",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "lists",
+    "path": "styles.lists.space_after",
+    "label": "После списка",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.width",
+    "label": "Ширина таблицы",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.alignment",
+    "label": "Выравнивание",
+    "type": "select",
+    "options": [
+      "left",
+      "center",
+      "right"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.border.style",
+    "label": "Стиль рамки",
+    "type": "select",
+    "options": [
+      "none",
+      "single",
+      "double"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.border.width",
+    "label": "Толщина рамки",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.border.color",
+    "label": "Цвет рамки",
+    "type": "color",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.header_fill",
+    "label": "Заливка заголовка",
+    "type": "color",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.repeat_header",
+    "label": "Повторять строку заголовка",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.allow_row_split",
+    "label": "Разрешить разрыв строки таблицы",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.banded_rows.enabled",
+    "label": "Чередовать заливку строк",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.cell_padding.top",
+    "label": "Сверху",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.cell_padding.bottom",
+    "label": "Снизу",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.cell_padding.left",
+    "label": "Слева",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "tables",
+    "path": "styles.tables.cell_padding.right",
+    "label": "Справа",
+    "type": "dimension",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "images",
+    "path": "styles.images.max_width",
+    "label": "Максимальная ширина",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "images",
+    "path": "styles.images.alignment",
+    "label": "Выравнивание",
+    "type": "select",
+    "options": [
+      "left",
+      "center",
+      "right"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "images",
+    "path": "styles.images.space_before",
+    "label": "Перед изображением",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "images",
+    "path": "styles.images.space_after",
+    "label": "После изображения",
+    "type": "number",
+    "options": [],
+    "min": "0",
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "images",
+    "path": "styles.images.caption.enabled",
+    "label": "Добавлять подписи",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "images",
+    "path": "styles.images.caption.template",
+    "label": "Шаблон подписи",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "images",
+    "path": "styles.images.caption.position",
+    "label": "Расположение подписи",
+    "type": "select",
+    "options": [
+      "above",
+      "below"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "images",
+    "path": "styles.images.caption.style",
+    "label": "Стиль подписи",
+    "type": "select",
+    "options": [
+      "caption",
+      "body"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "images",
+    "path": "styles.images.numbering.enabled",
+    "label": "Нумеровать изображения",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "images",
+    "path": "styles.images.numbering.scope",
+    "label": "Область нумерации",
+    "type": "select",
+    "options": [
+      "document",
+      "chapter"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "images",
+    "path": "styles.images.numbering.start",
+    "label": "Начальное число",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.header_text",
+    "label": "Верхний колонтитул",
+    "type": "textarea",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "upper",
+    "requiresFirstPage": false,
+    "full": true
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.footer_text",
+    "label": "Нижний колонтитул",
+    "type": "textarea",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "lower",
+    "requiresFirstPage": false,
+    "full": true
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.page_number.visible",
+    "label": "Показывать номер страницы",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "number",
+    "requiresFirstPage": false
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.page_number.position",
+    "label": "Расположение номера",
+    "type": "select",
+    "options": [
+      "footer_center",
+      "footer_left",
+      "footer_right",
+      "header_center",
+      "header_left",
+      "header_right"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "number",
+    "requiresFirstPage": false
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.page_number.format",
+    "label": "Формат",
+    "type": "select",
+    "options": [
+      "decimal",
+      "lower_roman",
+      "upper_roman"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "number",
+    "requiresFirstPage": false
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.page_number.start",
+    "label": "Начать с",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "number",
+    "requiresFirstPage": false
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.different_first_page",
+    "label": "Особая первая страница",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "first",
+    "requiresFirstPage": false
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.first_page.header_text",
+    "label": "Первый верхний колонтитул",
+    "type": "textarea",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "first",
+    "requiresFirstPage": true,
+    "full": true
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.first_page.footer_text",
+    "label": "Первый нижний колонтитул",
+    "type": "textarea",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "first",
+    "requiresFirstPage": true,
+    "full": true
+  },
+  {
+    "category": "headers",
+    "path": "styles.headers_footers.first_page.show_page_number",
+    "label": "Показывать номер на первой странице",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "group": "first",
+    "requiresFirstPage": true
+  },
+  {
+    "category": "breaks",
+    "path": "styles.paragraph.page_break_before",
+    "label": "Основной текст с новой страницы",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "breaks",
+    "path": "styles.breaks.table_pagination",
+    "label": "Перенос таблиц",
+    "type": "select",
+    "options": [
+      "between_rows",
+      "keep_table"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "breaks",
+    "path": "styles.breaks.code_long_lines",
+    "label": "Длинные строки кода",
+    "type": "select",
+    "options": [
+      "wrap",
+      "overflow",
+      "error"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "breaks",
+    "path": "styles.breaks.soft_line_break",
+    "label": "Мягкий перевод строки",
+    "type": "select",
+    "options": [
+      "space",
+      "line"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "breaks",
+    "path": "styles.breaks.hyphenation.enabled",
+    "label": "Автоматические переносы слов",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "breaks",
+    "path": "styles.breaks.hyphenation.language",
+    "label": "Язык переносов",
+    "type": "text",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "breaks",
+    "path": "styles.breaks.hyphenation.consecutive_limit",
+    "label": "Переносов подряд",
+    "type": "number",
+    "options": [],
+    "min": "1",
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "advanced",
+    "path": "styles.font.underline",
+    "label": "Подчёркивание текста",
+    "type": "select",
+    "options": [
+      "none",
+      "single",
+      "double"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "advanced",
+    "path": "styles.font.case",
+    "label": "Регистр",
+    "type": "select",
+    "options": [
+      "normal",
+      "uppercase",
+      "lowercase",
+      "small_caps"
+    ],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "advanced",
+    "path": "styles.font.character_spacing",
+    "label": "Межзнаковый интервал",
+    "type": "number",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false,
+    "unit": "пт"
+  },
+  {
+    "category": "advanced",
+    "path": "styles.font.strike",
+    "label": "Зачёркнутый текст",
+    "type": "checkbox",
+    "options": [],
+    "min": null,
+    "max": null,
+    "optional": false,
+    "signed": false
+  },
+  {
+    "category": "headers",
+    "path": "styles.page.header_distance",
+    "group": "upper",
+    "label": "Расстояние от верхнего края",
+    "type": "dimension",
+    "options": []
+  },
+  {
+    "category": "headers",
+    "path": "styles.page.footer_distance",
+    "group": "lower",
+    "label": "Расстояние от нижнего края",
+    "type": "dimension",
+    "options": []
+  }
+]

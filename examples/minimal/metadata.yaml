@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.2",
+  "title": "Пример MD2DOC Studio",
+  "subtitle": "Пример проекта формата 0.1",
+  "author": "Example author",
+  "organization": "Example",
+  "version": "0.1.0",
+  "status": "draft",
+  "date": "2026-11-11",
+  "language": "ru-RU",
+  "keywords": [
+    "MD2DOC",
+    "Markdown",
+    "структура документа"
+  ],
+  "description": "Искусственный пример без пользовательских данных."
+}
